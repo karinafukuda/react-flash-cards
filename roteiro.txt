@@ -1,0 +1,48 @@
+Roteiro - react-countries
+=========================
+
+() Obter projeto-base, copiar para "aula-depois", 
+   renomear pasta para "react-countries-aula" e
+   instalar dependências com o comando "yarn"
+
+() Utilizar .env
+
+() Executar projeto com "yarn dev"
+
+() App.js
+   () Mostrar boa prática de isolar a aplicação em páginas
+   
+   () Criar o componente ReactCountriesPage e utilizá-lo
+      em App
+	  
+() ReactCountriesPage.js
+
+   () Reaproveitar TextInput, Header e Main dos
+      projetos anteriores
+
+   () Utilizar countries.json na aplicação através 
+      de uma "const" exportável
+
+   () Enfatizar que isso não é comum. O mais comum é 
+      utilizar um Back End, que será visto posteriormente
+
+   () Criar, em Main, input para filtrar países e um 
+      state para tal. Testar implementação.
+
+   () Implementar filtro de países com pelo menos 
+      3 caracteres. Utilizar estado derivado (derived
+      state), também conhecido como "campo calculado"
+
+   () Implementar componente Countries
+   () Implementar componente Country
+   () Mostrar implementação "natural" (prop countries)
+
+   () Mostrar boa prática com o conceito de 
+      Composition (prop children), que evita um
+      problema conhecido como prop drilling
+
+   () Enfatizar a importância da prop key quando
+      renderizamos componentes em loop com array.map  
+
+() Limpar o app para disponibilização, removendo arquivos "desnecessários",
+   como por exemplo a pasta "node_modules". Use a biblioteca rimraf para isso.
